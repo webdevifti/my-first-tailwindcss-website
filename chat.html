@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="./output/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+</head>
+<body class="bg-gray-100 m-2">
+    <div class="bg-white rounded-sm ring-1 shadow-md ring-gray-300 mx-auto max-w-7xl">
+        <div class="flex w-full">
+            <div class="border-r-slate-300 border py-2 px-2 w-1/4 flex-none">
+                <div class="mb-4">
+                    <input type="text" class="w-full rounded-md border-0 ring-1 ring-gray-200 bg-indigo-100 placeholder:text-gray-700" placeholder="Search ">
+                </div>
+                <ul class="divide-y max-h-[50rem] overflow-y-scroll">
+                    <li class="flex items-center space-x-3 py-1 px-1 hover:bg-indigo-50 rounded-md cursor-pointer">
+                        <div>
+                            <img src="./src/img/user1.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-sm">User Name</h4>
+                            <p class="text-xs text-gray-500"><span class="font-semibold text-xs ">You: </span> last message</p>
+                        </div>
+                    </li>
+                    <li class="flex items-center space-x-3 py-1 px-1 bg-indigo-50 hover:bg-indigo-50 rounded-md cursor-pointer">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-sm">User Name</h4>
+                            <p class="text-xs text-gray-500"><span class="font-semibold text-xs ">User: </span> last message</p>
+                        </div>
+                    </li>
+                 
+                  
+                </ul>
+            </div>
+            <div class="w-1/4 flex-1 ">
+                <div class="bg-gray-50 py-1 px-3 flex items-center justify-between shadow-md">
+                    <div class="flex items-center space-x-3 px-2  cursor-pointer">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-sm">User Name</h4>
+                            <p class="text-xs text-gray-500">Active 1 min ago.</p>
+                        </div>
+                   </div>
+                   <div class="flex gap-x-2">
+                        <button class="bg-indigo-50 py-1 px-3 rounded-lg"><i class="fa fa-phone text-sm text-blue-400"></i></button>
+                        <button class="bg-indigo-50 py-1 px-3 rounded-lg"><i class="fa fa-video text-sm text-blue-400"></i></button>
+                        <button class="bg-indigo-50 py-1 px-3 rounded-lg"><i class="fa fa-ellipsis-h text-sm text-blue-400"></i></button>
+                   </div>
+                </div>
+                <div class=" py-2 px-2 h-[45rem] overflow-y-scroll">
+                    <div class=" mb-2 mt-2 flex space-x-3 px-2">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 inline-block leading-4  bg-indigo-200 px-2 py-2 text-justify rounded-md ">Lorem, ipsum dolor sit us delectus quo. Ea, nobis?</p>
+                        </div>
+                    </div>
+                    <div class=" mb-2 mt-2 flex space-x-3 px-2">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 inline-block leading-4  bg-indigo-200 px-2 py-2 text-justify rounded-md ">Lorem, ipsum dolor sit us delectus quo. Ea, nobis?</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 mt-2 flex w-full px-2  justify-end">
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 leading-4  bg-blue-200 inline-block px-2 py-2 text-justify rounded-md ">Lorem, ipsum? Lorem ipsum dolor sit amet cbus!uam.</p>
+                        </div>
+                    </div>
+                    <div class=" mb-2 mt-2 flex space-x-3 px-2">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 inline-block leading-4  bg-indigo-200 px-2 py-2 text-justify rounded-md ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, consequatur. Lorem, ipsum dolor sit amet consectetur adipisicingctio hic temporibus officiis itaque repellendus nesciunt quam laudantium repudiandae sit possimus delectus quo. Ea, nobis?</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 mt-2 flex w-full px-2  justify-end">
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 leading-4  bg-blue-200 inline-block px-2 py-2 text-justify rounded-md ">Lorem, ipsum? Lorem ipsum dolor sit amet .</p>
+                        </div>
+                    </div>
+                    <div class=" mb-2 mt-2 flex space-x-3 px-2">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 inline-block leading-4  bg-indigo-200 px-2 py-2 text-justify rounded-md ">Loremquo. Ea, nobis?</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 mt-2 flex w-full px-2  justify-end">
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 leading-4  bg-blue-200 inline-block px-2 py-2 text-justify rounded-md ">Lorem, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. At in voluptates quam a eos ratione repellendus, quaerat aut facere ipsa nulla illum necessitatibus! Qui, iure corporis maiores repellendus reprehenderit numquam.</p>
+                        </div>
+                    </div>
+                    <div class=" mb-2 mt-2 flex space-x-3 px-2">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 inline-block leading-4  bg-indigo-200 px-2 py-2 text-justify rounded-md ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, consequatur. Lorem, ipsum dolor sit amet consectetur adipisicingctio hic temporibus officiis itaque repellendus nesciunt quam laudantium repudiandae sit possimus delectus quo. Ea, nobis?</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 mt-2 flex w-full px-2  justify-end">
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 leading-4  bg-blue-200 inline-block px-2 py-2 text-justify rounded-md ">Lorem, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. At in voluptates quam a eos ratione repellendus, quaerat aut facere ipsa nulla illum necessitatibus! Qui, iure corporis maiores repellendus reprehenderit numquam.</p>
+                        </div>
+                    </div>
+                    <div class=" mb-2 mt-2 flex space-x-3 px-2">
+                        <div>
+                            <img src="./src/img/user2.jpg" alt="" class="w-10 h-10 rounded-full">
+                        </div>
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 inline-block leading-4  bg-indigo-200 px-2 py-2 text-justify rounded-md ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, consequatur. Lorem, ipsum dolor sit amet consectetur adipisicingctio hic temporibus officiis itaque repellendus nesciunt quam laudantium repudiandae sit possimus delectus quo. Ea, nobis?</p>
+                        </div>
+                    </div>
+
+                    <div class="mb-2 mt-2 flex w-full px-2  justify-end">
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 leading-4  bg-blue-200 inline-block px-2 py-2 text-justify rounded-md ">Lorem, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. At in voluptates quam a eos ratione repellendus, quaerat aut facere ipsa nulla illum necessitatibus! Qui, iure corporis maiores repellendus reprehenderit numquam.</p>
+                        </div>
+                    </div>
+                    <div class="mb-2 mt-2 flex w-full px-2  justify-end">
+                        <div class="max-w-md">
+                            <p class="text-xs text-gray-700 leading-4  bg-blue-200 inline-block px-2 py-2 text-justify rounded-md ">Lorem, ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. At in voluptates quam a eos ratione repellendus, quaerat aut facere ipsa nulla illum necessitatibus! Qui, iure corporis maiores repellendus reprehenderit numquam.</p>
+                        </div>
+                    </div>
+
+                
+                    
+                </div>
+                <div class="w-full">
+                    <form action="#">
+                    <input type="text" required class="w-11/12 border-0 focus:ring-indigo-100 rounded-sm bg-indigo-50" placeholder="Write message">
+                    <button type="submit" class="bg-indigo-500 text-gray-200 rounded-md py-2 px-5">Sent</button>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

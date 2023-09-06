@@ -24,3 +24,24 @@
         @apply py-2 px-4 bg-gray-500 text-white font-semibold rounded-lg shadow-md hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75
     }
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgb(238 242 255);
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(238 242 255);
+    border-radius: 5px;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(238 242 255);
+}
